@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		016ED32F6C23BEC9D098F8F6 /* libPods-STLLaunchAD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2A2DBA662108D1BCEA8D65 /* libPods-STLLaunchAD.a */; };
 		AA5A14D12060F9F2007EC767 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A14D02060F9F2007EC767 /* AppDelegate.m */; };
 		AA5A14D42060F9F2007EC767 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A14D32060F9F2007EC767 /* ViewController.m */; };
 		AA5A14D72060F9F2007EC767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5A14D52060F9F2007EC767 /* Main.storyboard */; };
 		AA5A14D92060F9F2007EC767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5A14D82060F9F2007EC767 /* Assets.xcassets */; };
 		AA5A14DC2060F9F2007EC767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5A14DA2060F9F2007EC767 /* LaunchScreen.storyboard */; };
 		AA5A14DF2060F9F2007EC767 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A14DE2060F9F2007EC767 /* main.m */; };
+		AA5A14ED2060FB7C007EC767 /* STLLaunchResourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A14E72060FB7B007EC767 /* STLLaunchResourceModel.m */; };
+		AA5A14EE2060FB7C007EC767 /* STLLaunchItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A14E92060FB7B007EC767 /* STLLaunchItemModel.m */; };
+		AA5A14EF2060FB7C007EC767 /* STLLaunchAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A14EB2060FB7B007EC767 /* STLLaunchAdView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B2A2DBA662108D1BCEA8D65 /* libPods-STLLaunchAD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STLLaunchAD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64AE1D5FA1CF1B0F900BE76C /* Pods-STLLaunchAD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STLLaunchAD.release.xcconfig"; path = "Pods/Target Support Files/Pods-STLLaunchAD/Pods-STLLaunchAD.release.xcconfig"; sourceTree = "<group>"; };
 		AA5A14CC2060F9F2007EC767 /* STLLaunchAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STLLaunchAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5A14CF2060F9F2007EC767 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA5A14D02060F9F2007EC767 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +32,14 @@
 		AA5A14DB2060F9F2007EC767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA5A14DD2060F9F2007EC767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA5A14DE2060F9F2007EC767 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA5A14E62060FB7B007EC767 /* STLLaunchResourceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLLaunchResourceModel.h; sourceTree = "<group>"; };
+		AA5A14E72060FB7B007EC767 /* STLLaunchResourceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLLaunchResourceModel.m; sourceTree = "<group>"; };
+		AA5A14E82060FB7B007EC767 /* STLLaunchItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLLaunchItemModel.h; sourceTree = "<group>"; };
+		AA5A14E92060FB7B007EC767 /* STLLaunchItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLLaunchItemModel.m; sourceTree = "<group>"; };
+		AA5A14EA2060FB7B007EC767 /* STLLaunchAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLLaunchAdView.h; sourceTree = "<group>"; };
+		AA5A14EB2060FB7B007EC767 /* STLLaunchAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLLaunchAdView.m; sourceTree = "<group>"; };
+		AA5A14EC2060FB7C007EC767 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		E8C6F598550883D2CE2F1665 /* Pods-STLLaunchAD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STLLaunchAD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STLLaunchAD/Pods-STLLaunchAD.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016ED32F6C23BEC9D098F8F6 /* libPods-STLLaunchAD.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B5654D72DC1935F84C18C76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B2A2DBA662108D1BCEA8D65 /* libPods-STLLaunchAD.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AA5A14C32060F9F2007EC767 = {
 			isa = PBXGroup;
 			children = (
 				AA5A14CE2060F9F2007EC767 /* STLLaunchAD */,
 				AA5A14CD2060F9F2007EC767 /* Products */,
+				FF1D2A2584BCFB8F9E56873D /* Pods */,
+				5B5654D72DC1935F84C18C76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +83,7 @@
 		AA5A14CE2060F9F2007EC767 /* STLLaunchAD */ = {
 			isa = PBXGroup;
 			children = (
+				AA5A14E52060FB47007EC767 /* STLLaunchAD */,
 				AA5A14CF2060F9F2007EC767 /* AppDelegate.h */,
 				AA5A14D02060F9F2007EC767 /* AppDelegate.m */,
 				AA5A14D22060F9F2007EC767 /* ViewController.h */,
@@ -71,6 +97,29 @@
 			path = STLLaunchAD;
 			sourceTree = "<group>";
 		};
+		AA5A14E52060FB47007EC767 /* STLLaunchAD */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A14EC2060FB7C007EC767 /* Header.h */,
+				AA5A14EA2060FB7B007EC767 /* STLLaunchAdView.h */,
+				AA5A14EB2060FB7B007EC767 /* STLLaunchAdView.m */,
+				AA5A14E82060FB7B007EC767 /* STLLaunchItemModel.h */,
+				AA5A14E92060FB7B007EC767 /* STLLaunchItemModel.m */,
+				AA5A14E62060FB7B007EC767 /* STLLaunchResourceModel.h */,
+				AA5A14E72060FB7B007EC767 /* STLLaunchResourceModel.m */,
+			);
+			path = STLLaunchAD;
+			sourceTree = "<group>";
+		};
+		FF1D2A2584BCFB8F9E56873D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8C6F598550883D2CE2F1665 /* Pods-STLLaunchAD.debug.xcconfig */,
+				64AE1D5FA1CF1B0F900BE76C /* Pods-STLLaunchAD.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA5A14E22060F9F2007EC767 /* Build configuration list for PBXNativeTarget "STLLaunchAD" */;
 			buildPhases = (
+				0580B4919012CBD51FF3F2C8 /* [CP] Check Pods Manifest.lock */,
 				AA5A14C82060F9F2007EC767 /* Sources */,
 				AA5A14C92060F9F2007EC767 /* Frameworks */,
 				AA5A14CA2060F9F2007EC767 /* Resources */,
+				EAEBF095D89D735BD51A8D62 /* [CP] Embed Pods Frameworks */,
+				9553F922F26FD67A4155E119 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,13 +189,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0580B4919012CBD51FF3F2C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9553F922F26FD67A4155E119 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STLLaunchAD/Pods-STLLaunchAD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAEBF095D89D735BD51A8D62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STLLaunchAD/Pods-STLLaunchAD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA5A14C82060F9F2007EC767 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AA5A14D42060F9F2007EC767 /* ViewController.m in Sources */,
+				AA5A14EE2060FB7C007EC767 /* STLLaunchItemModel.m in Sources */,
 				AA5A14DF2060F9F2007EC767 /* main.m in Sources */,
+				AA5A14ED2060FB7C007EC767 /* STLLaunchResourceModel.m in Sources */,
+				AA5A14EF2060FB7C007EC767 /* STLLaunchAdView.m in Sources */,
 				AA5A14D12060F9F2007EC767 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +379,7 @@
 		};
 		AA5A14E32060F9F2007EC767 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8C6F598550883D2CE2F1665 /* Pods-STLLaunchAD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +394,7 @@
 		};
 		AA5A14E42060F9F2007EC767 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64AE1D5FA1CF1B0F900BE76C /* Pods-STLLaunchAD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "Header.h"
+
 
 @interface AppDelegate ()
 
@@ -16,7 +19,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    ViewController *controller = [[ViewController alloc]init];
+    controller.view.backgroundColor = [UIColor yellowColor];
+    self.window.rootViewController = controller;
+    
+    [self.window makeKeyAndVisible];
+    
+    if ([STLLaunchResourceModel isAdResourceExis]) {
+        STLLaunchItemModel *model = [[STLLaunchItemModel alloc] init];
+        model.launchType = LaunchTypeGIFUrl;
+        model.launchAdTime = 6;
+        model.launchUrl = @"http://youxuan-pic.oss-cn-hangzhou.aliyuncs.com/20180227/233ffee2e63c4f7b9f9b85331a7c6e09.jpg";
+        model.detailUrl = @"http://baidu.com";
+        STLLaunchAdView *view = [[STLLaunchAdView alloc] initWithModel:model];
+        [view show];
+    }
     return YES;
 }
 
